@@ -41,9 +41,9 @@ class ShiftCipher {
     }
     return decrypted.join('');
   }
-
 }
 
+// TESTS
 const cipher = new ShiftCipher(2);
 console.log(cipher.encrypt('I love to code!'));
 console.log(cipher.decrypt('K <3 OA RWRRA'));
